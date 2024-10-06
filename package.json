@@ -1,0 +1,19 @@
+{
+  "name": "todos-cursor",
+  "version": "1.0.0",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "sqlite3": "^5.1.7"
+  }
+}
