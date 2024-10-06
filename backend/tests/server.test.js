@@ -6,7 +6,7 @@ let db;
 
 beforeAll((done) => {
     // Initialize the database connection
-    db = new sqlite3.Database('./tasks.db', (err) => {
+    db = new sqlite3.Database('./tasks_test.db', (err) => {
         if (err) {
             console.error(err.message);
         }
